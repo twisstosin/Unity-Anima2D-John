@@ -1,6 +1,6 @@
 # John Character
 #Screenshot
-![alt tag](https://github.com/twisstosin/Unity-Anima2D-John/blob/master/Assets/screenshot.png)
+![alt tag](https://github.com/twisstosin/Unity-Anima2D-John/blob/master/Assets/screenshot.PNG)
 
 
 # License
