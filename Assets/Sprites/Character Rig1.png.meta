@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 08ed04729d39c0a4abd9df16fe0d5421
+timeCreated: 1487111360
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Character Rig1_0
+    21300002: Character Rig1_1
+    21300004: Character Rig1_2
+    21300006: Character Rig1_3
+    21300008: Character Rig1_4
+    21300010: Character Rig1_5
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character Rig1_0
+      rect:
+        serializedVersion: 2
+        x: 659.40564
+        y: 3025.6157
+        width: 590.463
+        height: 971.9856
+      alignment: 9
+      pivot: {x: 0.49638057, y: 0.5055466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Character Rig1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1316.2211
+        width: 327.04782
+        height: 1382.0035
+      alignment: 9
+      pivot: {x: 0.48922515, y: 0.49947697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Character Rig1_2
+      rect:
+        serializedVersion: 2
+        x: 501.96088
+        y: 1451.7064
+        width: 623.6882
+        height: 1446.4994
+      alignment: 9
+      pivot: {x: 0.49870944, y: 0.499339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Character Rig1_3
+      rect:
+        serializedVersion: 2
+        x: 1798.9663
+        y: 1615.051
+        width: 345.0337
+        height: 1391.7756
+      alignment: 9
+      pivot: {x: 0.5116419, y: 0.4989662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Character Rig1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384.90775
+        height: 1134.1316
+      alignment: 9
+      pivot: {x: 0.49362478, y: 0.49685594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Character Rig1_5
+      rect:
+        serializedVersion: 2
+        x: 1554.4175
+        y: 18.355415
+        width: 396.97534
+        height: 1145.5187
+      alignment: 9
+      pivot: {x: 0.5014981, y: 0.4981539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 97461925663750
+  assetBundleName: 
+  assetBundleVariant: 

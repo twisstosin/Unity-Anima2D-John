@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8494D73D-A996-3C10-4B34-EE113EC7E563}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>Library\UnityAssemblies\UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Tizen.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Tizen.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Play.csproj">
+      <Project>{13E04ECC-A1B1-1CD9-3C14-06634BC01BE7}</Project>
+      <Name>Play</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Anima2D\Scripts\Editor\AnimationBaker.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\AnimationFixer\AnimationFixer.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowExtra.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_50.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_51_52_53.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_54.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_55.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_56.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\IAnimationWindowImpl.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\BbwPlugin.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\BindInfo.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\BlendShape.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\BlendShapeEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\BlendShapeFrame.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\BlendShapeFrameEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Bone2DEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\BoneUtils.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\BoneWeight.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\ColorRing.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\ContextMenu.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\CurveUtility.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Edge.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\EditorEventHandler.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\EditorExtra.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\EditorGUIExtra.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\EditorUpdater.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Exporter\Exporter.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Gizmos.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\HandlesExtra.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Hole.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Ik2DEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\IkCCD2DEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\IkGroupEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\IkLimb2DEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\IkUtils.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\IndexedEdge.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\InspectorEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\KeyframeUtility.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\MaskCreator.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\MeshToolEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Node.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\OnionSkin\MaterialCache.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\OnionSkin\ObjectPool.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\OnionSkin\OnionLayer.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\OnionSkin\OnionLayerManager.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\OnionSkin\OnionSkinWindow.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\PoseManagerEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\PoseUtils.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\RectHandles.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\ScriptableObjectUtility.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SelectionRectTool.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SerializedCache.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SliceEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SpriteMeshAnimationEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SpriteMeshCache.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SpriteMeshData.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SpriteMeshEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SpriteMeshEditorWindow.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SpriteMeshInstanceEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SpriteMeshInstancePostProcessor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SpriteMeshPostprocessor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\SpriteMeshUtils.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\TextureEditorWindow.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\TimeLine\BlendShapeFrameDopeElement.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\TimeLine\IDopeElement.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\TimeLine\TickHandler.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\TimeLine\TickStyle.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\TimeLine\TimeArea.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\TimeLine\TimeLine.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\TimeLine\ZoomableArea.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\ToolsExtra.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\Dwyer.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\ITriangulator.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\Incremental.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\SweepLine.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\BadTriQueue.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Behavior.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Carver.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Data\BadSubseg.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Data\BadTriangle.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Data\Osub.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Data\Otri.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Data\Segment.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Data\Triangle.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Data\Vertex.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Enums.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Geometry\BoundingBox.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Geometry\Edge.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Geometry\EdgeEnumerator.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Geometry\ISegment.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Geometry\ITriangle.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Geometry\InputGeometry.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Geometry\Point.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Geometry\RegionPointer.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\IO\DataReader.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\IO\DebugWriter.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\IO\FileReader.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\IO\FileWriter.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\IO\IGeometryFormat.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\IO\IMeshFormat.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\IO\InputTriangle.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\IO\TriangleFormat.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Log\ILog.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Log\ILogItem.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Log\SimpleLog.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Log\SimpleLogItem.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Mesh.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\NewLocation.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Primitives.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Quality.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Sampler.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Smoothing\ISmoother.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Smoothing\SimpleSmoother.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Tools\AdjacencyMatrix.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Tools\BoundedVoronoi.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Tools\CuthillMcKee.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Tools\IVoronoi.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Tools\QuadTree.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Tools\QualityMeasure.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Tools\RegionIterator.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Tools\Statistic.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Tools\Voronoi.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\Tools\VoronoiRegion.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\Triangle\TriangleLocator.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexAnimation\BakedMesh.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexAnimation\SpriteMeshInstanceTracker.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexAnimation\TransformTracker.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexAnimation\VertexSelection.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexManipulator\IVertexManipulable.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexManipulator\IVertexManipulator.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\IRectManipulable.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\IRectManipulatorData.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulator.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulatorData.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulatorParams.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\VertexManipulator\VertexManipulator.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\WeightEditor.cs" />
+    <Compile Include="Assets\Anima2D\Scripts\Editor\WindowEditorTool.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Anima2D\Examples\Shaders\Unlit-Alpha-Cull-off.shader" />
+    <None Include="Assets\Anima2D\Examples\Shaders\VertexLitOneDirectional.shader" />
+    <None Include="Assets\Anima2D\Licenses.txt" />
+    <None Include="Assets\Anima2D\Readme.txt" />
+    <None Include="Assets\Anima2D\Version.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
